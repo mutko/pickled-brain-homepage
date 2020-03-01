@@ -1,0 +1,25 @@
+@supports (display: grid) {
+  .wrapper {
+    display: grid;
+    grid-template-rows: 115px auto 115px;
+    grid-template-areas: "header" "main" "footer";
+
+    .page-header {
+      grid-area: header;
+    }
+    .main-content {
+      grid-area: main;
+    }
+    .page-footer {
+      grid-area: footer;
+    }
+  }
+}
+
+.wrapper {
+  background: lightsteelblue;
+  height: 100vh;
+}
+.main-content {
+  padding: 57px 0 105px;
+}
