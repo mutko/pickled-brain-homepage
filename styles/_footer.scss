@@ -1,0 +1,12 @@
+.page-footer {
+  padding-right: 163px;
+  padding-bottom: 75px;
+}
+.social-list {
+  @include flexCenter();
+  &__link {
+    &:first-child {
+      padding-right: 24px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.main-content {
+  margin-top: 60px;
+  padding: 101px 0 105px 163px;
+  position: relative;
+  &__logo {
+    display: inline-block;
+    position: absolute;
+    left: 434px;
+    top: 223px;
+  }
+  &__subtitle {
+    padding: 20px 0 20px 510px;
+    color: $c-main;
+    font-family: $f-title;
+    font-size: 26px;
+  }
+  &__box {
+    width: 302px;
+    height: 674px;
+    border: 7px solid $c-main;
+    position: absolute;
+    top: 0;
+    left: 334px;
+  }
+}
+.ii,
+.aa {
+  position: relative;
+  z-index: 10;
+}
