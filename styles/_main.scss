@@ -15,9 +15,11 @@
     font-size: 26px;
   }
   &__box {
-    width: 302px;
-    height: 674px;
-    border: 7px solid $c-main;
+    // width: 302px;
+    // height: 674px;
+    // border: 7px solid $c-main;
+    width: 316px;
+    height: 688px;
     position: absolute;
     top: 0;
     left: 334px;
@@ -27,4 +29,15 @@
 .aa {
   position: relative;
   z-index: 10;
+}
+.path {
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 5000;
+  animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
 }
