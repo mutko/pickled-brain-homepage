@@ -20,11 +20,11 @@ a {
     ),
     radial-gradient(
       circle at top,
-      rgba(0, 0, 0, 0.4) 0,
-      rgba(0, 0, 0, 0.3) 10%,
+      rgba(0, 0, 0, 0.9) 0,
+      rgba(0, 0, 0, 0.5) 10%,
       rgba(0, 0, 0, 0.2) 30%,
       rgba(0, 0, 0, 0.1) 60%,
-      rgb(255, 255, 255) 80%
+      rgb(255, 255, 255) 100%
     ),
     url("../asset/img/pattern.png"),
     url("../asset/img/bg.jpg") no-repeat top -189px left -113px / 2350px;
