@@ -25,17 +25,31 @@
     left: 334px;
   }
 }
-.ii,
-.aa {
+.index-over {
   position: relative;
   z-index: 10;
 }
-.path {
-  stroke-dasharray: 5000;
-  stroke-dashoffset: 5000;
-  animation: dash 5s linear forwards;
+
+.box {
+  position: relative;
+  z-index: 20;
+}
+.box--bottom {
+  z-index: 1;
+  top: -11px;
 }
 
+.animate-1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 2s linear forwards;
+}
+.animate-2 {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 2s linear forwards;
+  animation-delay: 1.1s;
+}
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
